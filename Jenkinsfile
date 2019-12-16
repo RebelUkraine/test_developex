@@ -6,7 +6,7 @@ pipeline {
                 sh 'whoami'
                 sh 'python3 -m pip install --upgrade pip'
                 sh 'python3 -m pip install --user -r requirements.txt'
-                sh 'python3 main.py dou.ua'
+                sh 'python3 main.py dou.ua ukr.net youtube.com'
             }
         }
     }
